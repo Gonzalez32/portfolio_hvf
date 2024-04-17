@@ -3,6 +3,7 @@ import "./App.css";
 import "bulma/package.json";
 import "bulma/css/bulma.css";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     // </div>
     <>
       <Navbar />
+      <Header />
     </>
   );
 }

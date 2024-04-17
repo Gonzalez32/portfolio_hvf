@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section class="hero is-success is-halfheight">
+    <section class="hero is-danger is-halfheight">
       <div class="hero-body">
         <div class="">
           <p class="title">Half height hero</p>

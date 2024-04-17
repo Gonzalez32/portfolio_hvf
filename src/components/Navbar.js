@@ -2,11 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav
-      class="navbar is-warning"
-      role="navigation"
-      aria-label="main navigation"
-    >
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
           <svg

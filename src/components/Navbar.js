@@ -2,7 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav
+      class="navbar is-warning"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
           <svg
@@ -46,9 +50,16 @@ const Navbar = () => {
         <div class="navbar-start">
           <a class="navbar-item">Home</a>
 
-          <a class="navbar-item">Documentation</a>
+          <a class="navbar-item">About</a>
 
-          <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-item">Experience</a>
+
+          <a class="navbar-item">Portfolio</a>
+
+          <a class="navbar-item">Contact</a>
+
+          {/* Might add this function later */}
+          {/* <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">More</a>
 
             <div class="navbar-dropdown">
@@ -56,18 +67,7 @@ const Navbar = () => {
               <a class="navbar-item is-selected">Jobs</a>
               <a class="navbar-item">Contact</a>
             </div>
-          </div>
-        </div>
-
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a class="button is-light">Log in</a>
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

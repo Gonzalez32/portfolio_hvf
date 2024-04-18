@@ -5,8 +5,8 @@ const Header = () => {
     <section class="hero is-danger is-halfheight">
       <div class="hero-body">
         <div class="">
-          <p class="title">Half height hero</p>
-          <p class="subtitle">Half height subtitle</p>
+          <p class="title">Haley V Ferro</p>
+          <p class="subtitle">Welcome, Traveler!</p>
         </div>
       </div>
     </section>

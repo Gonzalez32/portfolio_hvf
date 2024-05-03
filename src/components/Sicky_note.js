@@ -44,10 +44,16 @@ const Sicky_note = () => {
         {/* <!-- Hero content: will be in the middle --> */}
         <div class="hero-body">
           <div class="container has-text-centered">
-            <p class="title">Your Brand Name Or Brand Image</p>
+            <h1 class="title is-1">Your Brand Name Or Brand Image</h1>
             <p class="subtitle">
               mother - illustrator/graphic designer - she/her
             </p>
+            <div class="columns">
+              <div class="column">Instagram</div>
+              <div class="column">X</div>
+              {/* <div class="column">Store</div> */}
+              <div class="column">TikTok</div>
+            </div>
           </div>
         </div>
 

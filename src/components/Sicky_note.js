@@ -1,9 +1,11 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import { SocialIcon } from "react-social-icons";
 
 const Sicky_note = () => {
   return (
     <div>
-      <section class="hero is-danger is-fullheight">
+      <section class="hero has-background-warning-light is-fullheight">
         {/* <!-- Hero head: will stick at the top --> */}
         {/* <div class="hero-head">
           <header class="navbar">
@@ -44,15 +46,39 @@ const Sicky_note = () => {
         {/* <!-- Hero content: will be in the middle --> */}
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="title is-1">Your Brand Name Or Brand Image</h1>
-            <p class="subtitle">
+            <h1 class="title is-1 has-text-black">
+              Your Brand Name Or Brand Image
+            </h1>
+            <p class="subtitle has-text-black">
               mother - illustrator/graphic designer - she/her
             </p>
             <div class="columns">
-              <div class="column">Instagram</div>
-              <div class="column">X</div>
+              <div class="column">
+                <SocialIcon
+                  url="https://instagram.com"
+                  href="https://www.instagram.com/lillemonsweets/"
+                />
+              </div>
+              <div class="column">
+                <SocialIcon
+                  url="https://twitter.com"
+                  href="https://twitter.com/HaleyVFerro"
+                />
+              </div>
               {/* <div class="column">Store</div> */}
-              <div class="column">TikTok</div>
+              <div class="column">
+                <SocialIcon
+                  url="https://discord.com"
+                  href="https://discord.com/lillemonsweets"
+                />
+              </div>
+              <div class="column">
+                <SocialIcon
+                  url="https://pinterest.com"
+                  href="https://www.pinterest.com/victorytracks/"
+                />
+              </div>
+              {/* <div class="column">TikTok</div> */}
             </div>
           </div>
         </div>
@@ -63,19 +89,19 @@ const Sicky_note = () => {
             <div class="container">
               <ul>
                 <li class="is-active">
-                  <a>Home</a>
+                  <a class="has-text-black">Home</a>
                 </li>
                 <li>
-                  <a>About</a>
+                  <a class="has-text-black">About</a>
                 </li>
                 <li>
-                  <a>Commissions</a>
+                  <a class="has-text-black">Commissions</a>
                 </li>
                 <li>
-                  <a>Illustrations</a>
+                  <a class="has-text-black">Illustrations</a>
                 </li>
                 <li>
-                  <a>Events</a>
+                  <a class="has-text-black">Events</a>
                 </li>
               </ul>
             </div>

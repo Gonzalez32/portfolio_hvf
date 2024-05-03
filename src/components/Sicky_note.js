@@ -3,15 +3,15 @@ import React from "react";
 const Sicky_note = () => {
   return (
     <div>
-      <section class="hero is-success is-fullheight">
+      <section class="hero is-danger is-fullheight">
         {/* <!-- Hero head: will stick at the top --> */}
-        <div class="hero-head">
+        {/* <div class="hero-head">
           <header class="navbar">
             <div class="container">
               <div class="navbar-brand">
                 <a class="navbar-item">
                   <img
-                    src="https://bulma.io/assets/images/bulma-type-white.png"
+                    // src="https://bulma.io/assets/images/bulma-type-white.png"
                     alt="Logo"
                   />
                 </a>
@@ -22,7 +22,7 @@ const Sicky_note = () => {
                   <span></span>
                 </span>
               </div>
-              <div id="navbarMenuHeroC" class="navbar-menu">
+              {/* <div id="navbarMenuHeroC" class="navbar-menu">
                 <div class="navbar-end">
                   <a class="navbar-item is-active"> Home </a>
                   <a class="navbar-item"> Examples </a>
@@ -36,16 +36,18 @@ const Sicky_note = () => {
                     </a>
                   </span>
                 </div>
-              </div>
-            </div>
-          </header>
-        </div>
+              </div> */}
+        {/* </div> */}
+        {/* </header> */}
+        {/* </div> */}
 
         {/* <!-- Hero content: will be in the middle --> */}
         <div class="hero-body">
           <div class="container has-text-centered">
-            <p class="title">Title</p>
-            <p class="subtitle">Subtitle</p>
+            <p class="title">Your Brand Name Or Brand Image</p>
+            <p class="subtitle">
+              mother - illustrator/graphic designer - she/her
+            </p>
           </div>
         </div>
 
@@ -55,22 +57,19 @@ const Sicky_note = () => {
             <div class="container">
               <ul>
                 <li class="is-active">
-                  <a>Overview</a>
+                  <a>Home</a>
                 </li>
                 <li>
-                  <a>Modifiers</a>
+                  <a>About</a>
                 </li>
                 <li>
-                  <a>Grid</a>
+                  <a>Commissions</a>
                 </li>
                 <li>
-                  <a>Elements</a>
+                  <a>Illustrations</a>
                 </li>
                 <li>
-                  <a>Components</a>
-                </li>
-                <li>
-                  <a>Layout</a>
+                  <a>Events</a>
                 </li>
               </ul>
             </div>

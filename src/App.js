@@ -5,6 +5,7 @@ import "bulma/css/bulma.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
+import Sicky_note from "./components/Sicky_note";
 
 function App() {
   return (
@@ -25,9 +26,10 @@ function App() {
     //   </header>
     // </div>
     <>
-      <Navbar />
+      {/* <Navbar />
       <Header />
-      <About />
+      <About /> */}
+      <Sicky_note />
     </>
   );
 }

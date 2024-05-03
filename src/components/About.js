@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div>
       <section class="section is-large">
-        <h1 class="title">Large section</h1>
+        <h1 class="title">About Me</h1>
         <h2 class="subtitle">
-          A simple container to divide your page into <strong>sections</strong>,
-          like the one you're currently reading.
+          Hello, my little <strong>grimlins</strong>! like the one you're
+          currently as is.
         </h2>
       </section>
     </div>

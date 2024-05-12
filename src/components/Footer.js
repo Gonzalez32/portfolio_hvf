@@ -6,9 +6,8 @@ const Footer = () => {
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
-            <strong>My Personal Website</strong> by{" "}
-            <a href="https://jgthms.com">Haley V Ferro</a> | All Rights Reserved
-            Copyright&copy;
+            <strong>My Personal Website</strong> by <a href="">Haley V Ferro</a>{" "}
+            | All Rights Reserved Copyright&copy;
             {new Date().getFullYear()}&nbsp;
           </p>
         </div>

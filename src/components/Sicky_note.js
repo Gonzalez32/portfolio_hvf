@@ -92,9 +92,9 @@ const Sicky_note = () => {
                 <li>
                   <a class="has-text-danger-white">About</a>
                 </li>
-                <li>
+                {/* <li>
                   <a class="has-text-danger-white">Commissions</a>
-                </li>
+                </li> */}
                 <li>
                   <a class="has-text-danger-white">Illustrations</a>
                 </li>

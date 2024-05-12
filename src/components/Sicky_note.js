@@ -46,11 +46,9 @@ const Sicky_note = () => {
         {/* <!-- Hero content: will be in the middle --> */}
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="title is-1 has-text-black">
-              Your Brand Name Or Brand Image
-            </h1>
+            <h1 class="title is-1 has-text-black">Haley Ferro</h1>
             <p class="subtitle has-text-black">
-              mother - illustrator/graphic designer - she/her
+              Mother - Illustrator/Graphic Designer - She/Her
             </p>
             <div class="columns">
               <div class="column">
@@ -89,19 +87,19 @@ const Sicky_note = () => {
             <div class="container">
               <ul>
                 <li class="is-active">
-                  <a class="has-text-black">Home</a>
+                  <a class="has-text-danger-white">Home</a>
                 </li>
                 <li>
-                  <a class="has-text-black">About</a>
+                  <a class="has-text-danger-white">About</a>
                 </li>
                 <li>
-                  <a class="has-text-black">Commissions</a>
+                  <a class="has-text-danger-white">Commissions</a>
                 </li>
                 <li>
-                  <a class="has-text-black">Illustrations</a>
+                  <a class="has-text-danger-white">Illustrations</a>
                 </li>
                 <li>
-                  <a class="has-text-black">Events</a>
+                  <a class="has-text-danger-white">Events</a>
                 </li>
               </ul>
             </div>

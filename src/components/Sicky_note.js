@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { SocialIcon } from "react-social-icons";
+import About from "./About";
 
 const Sicky_note = () => {
   return (
@@ -90,7 +91,13 @@ const Sicky_note = () => {
                   <a class="has-text-danger-white">Home</a>
                 </li>
                 <li>
-                  <a class="has-text-danger-white">About</a>
+                  <a
+                    class="has-text-danger-white"
+                    // path="About"
+                    element={<About />}
+                  >
+                    About
+                  </a>
                 </li>
                 {/* <li>
                   <a class="has-text-danger-white">Commissions</a>

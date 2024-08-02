@@ -1,6 +1,7 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 import { SocialIcon } from "react-social-icons";
+import WebProfiePic from "../Image/heart.jpg";
 import { useNavigate } from "react-router-dom";
 import About from "./About";
 
@@ -49,10 +50,7 @@ const Sicky_note = () => {
         <div class="hero-body">
           <div class="container has-text-centered">
             <figure class="image is-152x152">
-              <img
-                class="is-rounded"
-                src="https://bulma.io/assets/images/placeholders/128x128.png"
-              />
+              <img class="is-rounded" src={WebProfiePic} />
             </figure>
             <h1 class="title is-2 has-text-black">🍓 Haley V Ferro 🍓</h1>
             <section class="section">
@@ -62,7 +60,6 @@ const Sicky_note = () => {
                 to share my journey with you. Stay tuned as I continue to grow
                 and add more content. Thank you for stopping by! 🌱
               </h3>
-
               <p class="subtitle has-text-black">
                 Mother - Illustrator/Graphic Designer - She/Her
               </p>

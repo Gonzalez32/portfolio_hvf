@@ -1,12 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { SocialIcon } from "react-social-icons";
+import { useNavigate } from "react-router-dom";
 import About from "./About";
 
 const Sicky_note = () => {
   return (
     <div>
-      <section class="hero has-background-warning-light is-fullheight">
+      <section class="hero is-danger is-fullheight">
         {/* <!-- Hero head: will stick at the top --> */}
         {/* <div class="hero-head">
           <header class="navbar">
@@ -47,10 +48,25 @@ const Sicky_note = () => {
         {/* <!-- Hero content: will be in the middle --> */}
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="title is-1 has-text-black">Haley Ferro</h1>
-            <p class="subtitle has-text-black">
-              Mother - Illustrator/Graphic Designer - She/Her
-            </p>
+            <figure class="image is-152x152">
+              <img
+                class="is-rounded"
+                src="https://bulma.io/assets/images/placeholders/128x128.png"
+              />
+            </figure>
+            <h1 class="title is-2 has-text-black">🍓 Haley V Ferro 🍓</h1>
+            <section class="section">
+              <h1 class="title">Welcome to my website! ❤️</h1>
+              <h3 class="subtitle">
+                It's still a work in <strong>progress</strong>, but I'm excited
+                to share my journey with you. Stay tuned as I continue to grow
+                and add more content. Thank you for stopping by! 🌱
+              </h3>
+
+              <p class="subtitle has-text-black">
+                Mother - Illustrator/Graphic Designer - She/Her
+              </p>
+            </section>
             <div class="columns">
               <div class="column">
                 <SocialIcon
@@ -65,16 +81,16 @@ const Sicky_note = () => {
                 />
               </div>
               {/* <div class="column">Store</div> */}
-              <div class="column">
+              {/* <div class="column">
                 <SocialIcon
                   url="https://discord.com"
                   href="https://discord.com/lillemonsweets"
                 />
-              </div>
+              </div> */}
               <div class="column">
                 <SocialIcon
-                  url="https://pinterest.com"
-                  href="https://www.pinterest.com/victorytracks/"
+                  url="https://cara.app"
+                  href="https://cara.app/haleyvferro/all"
                 />
               </div>
               {/* <div class="column">TikTok</div> */}
@@ -83,7 +99,7 @@ const Sicky_note = () => {
         </div>
 
         {/* <!-- Hero footer: will stick at the bottom --> */}
-        <div class="hero-foot">
+        {/* <div class="hero-foot">
           <nav class="tabs is-boxed is-fullwidth">
             <div class="container">
               <ul>
@@ -91,17 +107,13 @@ const Sicky_note = () => {
                   <a class="has-text-danger-white">Home</a>
                 </li>
                 <li>
-                  <a
-                    class="has-text-danger-white"
-                    // path="About"
-                    element={<About />}
-                  >
+                  <a class="has-text-danger-white" path="/" element={<About />}>
                     About
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a class="has-text-danger-white">Commissions</a>
-                </li> */}
+                </li>
                 <li>
                   <a class="has-text-danger-white">Illustrations</a>
                 </li>
@@ -111,7 +123,8 @@ const Sicky_note = () => {
               </ul>
             </div>
           </nav>
-        </div>
+        </div> */}
+        {/* Hero footer: end of the bottom */}
       </section>
     </div>
   );

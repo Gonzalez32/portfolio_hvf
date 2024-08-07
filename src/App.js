@@ -2,10 +2,11 @@
 import "./App.css";
 import "bulma/package.json";
 import "bulma/css/bulma.css";
+import Home from "./components/Home";
 // import Navbar from "./components/Navbar";
 // import Header from "./components/Header";
 // import About from "./components/About";
-import Sicky_note from "./components/Sicky_note";
+
 import Footer from "./components/Footer";
 
 function App() {
@@ -27,10 +28,10 @@ function App() {
     //   </header>
     // </div>
     <>
+      <Home />
       {/* <Navbar />
       <Header />
       <About /> */}
-      {/* <Sicky_note /> */}
       <Footer />
     </>
   );

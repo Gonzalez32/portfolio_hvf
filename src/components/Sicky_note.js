@@ -5,6 +5,8 @@ import WebProfiePic from "../Image/heart.jpg";
 import { useNavigate } from "react-router-dom";
 import About from "./About";
 
+// This component was just a temporary landing page
+
 const Sicky_note = () => {
   return (
     <div>

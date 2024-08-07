@@ -30,7 +30,7 @@ function App() {
       {/* <Navbar />
       <Header />
       <About /> */}
-      <Sicky_note />
+      {/* <Sicky_note /> */}
       <Footer />
     </>
   );

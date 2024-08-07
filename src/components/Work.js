@@ -1,11 +1,11 @@
 import React from "react";
 
-const Header = () => {
+const Work = () => {
   return (
-    <section class="hero is-danger is-halfheight">
+    <section class="hero is-light is-halfheight">
       <div class="hero-body">
         <div class="">
-          <p class="title">Haley V Ferro</p>
+          <p class="title">My Work</p>
           <p class="subtitle">Welcome, Traveler!</p>
         </div>
       </div>
@@ -13,4 +13,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Work;
